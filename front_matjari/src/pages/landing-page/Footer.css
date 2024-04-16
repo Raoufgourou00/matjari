@@ -1,0 +1,128 @@
+.footer {
+
+    background-color: rgb(51,51,51);
+    padding: 50px 10px;
+}
+
+
+.footer-boxes {
+    padding: 40px 0;
+}
+
+.footer-box h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 19;
+}
+
+.footer-box a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    display: block;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footer-box a:hover {
+    text-decoration: underline;
+}
+
+.footer div hr {
+    background-color: white;
+    width: 40%;
+    height: 2px;
+}
+
+.social-media {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 10;
+}
+
+.social-media div {
+    margin-top: 15px;
+    width: 18%;
+}
+
+
+
+
+.social-media div img {
+    width: 28px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+.social-media div img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+} 
+
+.copyright {
+    margin-top: 15px;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(121, 121, 121);
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+    .footer {
+    
+        margin-top: 200px;
+    }
+    
+}
+
+
+
+@media (max-width: 992px) { 
+   
+    .social-media div {
+        width: 25%;
+    }
+
+
+}
+
+
+@media (max-width: 768px) { 
+    .footer {
+    
+        margin-top: 60px;
+    }
+
+    .social-media div {
+        width: 35%;
+    }
+
+    .footer div hr {
+        width: 70%;
+    }
+
+}
+
+
+@media (max-width: 576px) { 
+   
+    .social-media div {
+        width: 45%;
+    }
+
+    .footer div hr {
+        width: 90%;
+    }
+
+}

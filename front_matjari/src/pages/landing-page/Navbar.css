@@ -1,0 +1,60 @@
+#brand-name {
+    color: rgb(255, 190, 152);
+    letter-spacing: 0.1rem;
+}
+
+#offcanvasNavbar {
+    width: 300px;
+}
+
+
+.btn-close {
+    font-size: 0.7rem;
+}
+
+
+.nav-btn {
+    padding: 15px 20px;
+    font-weight: 300;
+}
+
+#create-account-btn {
+    background-color: rgb(255, 190, 152);
+    color: white;
+    transition: background-color 1s ease-in-out;
+    
+}
+
+#create-account-btn:hover {
+    background-color: rgb(255, 207, 179);
+}
+
+#register-btn {
+    transition: background-color 1s ease-in-out;
+}
+
+#register-btn:hover {
+    background-color: rgb(226, 232, 248);
+}
+
+
+.navbar-scrolled {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+
+@media (max-width: 992px) {
+    .nav-mob-item {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .nav-mob-item:hover {
+        background-color: rgb(247, 222, 208);
+    }
+
+
+    .nav-mob-btn {
+        margin-top: 20px;
+    }
+}

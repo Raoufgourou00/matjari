@@ -1,0 +1,104 @@
+.section-four {
+
+    background-color: rgb(245,248,255);
+    margin-top: 100px;
+    padding-block: 100px;
+}
+
+#show-more-btn-2 {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-weight: 300;
+    border: 1px solid rgb(222,226,230);
+    background-color: white;
+    transition: background-color 1s ease-in-out;
+    
+}
+
+#show-more-btn-2:hover {
+    background-color: rgb(226, 232, 248);
+}
+
+.brand-span {
+    
+    color: rgb(59,101,187);
+}
+
+.chart-box {
+   
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 320px;
+    border-radius: 8px;
+    width: 35%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    
+   
+}
+
+
+
+.chart-box img:first-child {
+    width: 50px;
+}
+
+.chart-box img:last-child {
+    margin-top: 5px;
+    width: 110px;
+}
+
+.chart-box p {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.chart-box p span {
+    color: rgb(51,95,184);
+}
+
+.chart-box hr {
+    width: 100%;
+    background-color: rgb(235,235,235);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.image-box {
+    
+    height: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+    width: 62%;
+ 
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+@media (min-width: 720px) { 
+    .section-four {
+    
+        margin-top: 100px;
+    }
+    
+}
+
+@media (max-width: 720px) { 
+    .section-four {
+    
+        margin-top: 20px;
+        padding-block: 50px;
+    }
+    
+}
+
